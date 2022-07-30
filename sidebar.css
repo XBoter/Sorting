@@ -1,0 +1,15 @@
+#sidebar
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 20vw;
+    height: 90vh;
+}
+
+#sidebar ul
+{
+    width: 80%;
+    margin-top: 10px;
+}

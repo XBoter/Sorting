@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Sorting Algorithm Visualizer</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <h1>Sorting Algorithm Visualizer</h1>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+    <div class="wrapper">
+        <div id="sidebar">
+            <ul>
+                <li>
+                    <button class="materialButton" onclick="generateFunction()">Generate</button>
+                </li>
+                <li>
+                    <button class="materialButton" onclick="resetFunction()">Reset</button>
+                </li>
+                <li>
+                    <button class="materialButton" onclick="bubbleSortFunction()">Bubble Sort</button>
+                </li>
+                <li>
+                    <button class="materialButton" onclick="selectionSortFunction()">Selection Sort</button>
+                </li>
+                <li>
+                    <button class="materialButton" onclick="insertionSortFunction()">Insertion Sort</button>
+                </li>
+                <!--
+                <li>
+                    <button class="materialButton" onclick="mergeSortFunction()">Merge Sort</button>
+                </li>
+                <li>
+                    <button class="materialButton" onclick="quickSortFunction()">Quick Sort</button>
+                </li>
+                -->
+                <li>
+                    <button class="materialButton" onclick="countingSortFunction()">Counting Sort</button>
+                </li>
+                <!--
+                <li>
+                    <button class="materialButton" onclick="radixSortFunction()">Radix Sort</button>
+                </li>
+                <li>
+                    <button class="materialButton" onclick="bucketSortFunction()">Bucket Sort</button>
+                </li>
+                <li>
+                    <button class="materialButton" onclick="heapSortFunction()">Heap Sort</button>
+                </li>
+                <li>
+                    <button class="materialButton" onclick="shellSortFunction()">Shell Sort</button>
+                </li>
+                -->
+            </ul>
+        </div>
+        <div id="main">
+            <div id="scoreboard">
+                <table>
+                    <tr>
+                        <td>Time</td>
+                        <td>
+                            <p id="scoreboardTime">Not set</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Step Interval</td>
+                        <td>
+                            <p id="scoreboardStepInterval"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Array Size</td>
+                        <td>
+                            <p id="scoreboardArraySize"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sort Active </td>
+                        <td>
+                            <p id="scoreboardSortActive">None</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <canvas id="canvas">
+
+            </canvas>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

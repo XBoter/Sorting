@@ -1,0 +1,37 @@
+@import url("sidebar.css");
+@import url("navbar.css");
+@import url("main.css");
+@import url("button.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    transition: color 400ms ease-in-out;
+    transition: background-color 400ms ease-in-out;
+    transition: border 50ms ease-in-out;
+    -webkit-tap-highlight-color: transparent;
+    overflow: hidden;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #212121;
+  }
+
+  .wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+  }
+

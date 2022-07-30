@@ -1,0 +1,17 @@
+.materialButton {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: block;
+    border-width: 0;
+    width: 80%;
+    background-color: #00bfa5;
+    box-shadow: 0 1px 4px rgba(255, 255, 255, .2);
+    transition: background-color .3s;
+}
+
+.materialButton:hover, .materialButton:focus {
+    background-color: #0088a3;
+  }
