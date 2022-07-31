@@ -14,7 +14,7 @@ This is a simple WebPage which visualizes the way some sorting algorithms work
 - Heap Sort: Executes the heap sort algorithm
 - Shell Sort: Executes the shellsort algorithm
 # UI
-
+![This is an image](img/webpage.png)
 # Sorting Algortihms
 Source Code is in "C"
 ## Bubble Sort
