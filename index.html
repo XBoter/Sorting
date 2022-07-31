@@ -47,37 +47,25 @@
                 <li>
                     <button class="materialButton" onclick="countingSortFunction()">Counting Sort</button>
                 </li>
-                <!--
                 <li>
                     <button class="materialButton" onclick="radixSortFunction()">Radix Sort</button>
                 </li>
+                <!--
                 <li>
                     <button class="materialButton" onclick="bucketSortFunction()">Bucket Sort</button>
                 </li>
+                -->
                 <li>
                     <button class="materialButton" onclick="heapSortFunction()">Heap Sort</button>
                 </li>
                 <li>
                     <button class="materialButton" onclick="shellSortFunction()">Shell Sort</button>
                 </li>
-                -->
             </ul>
         </div>
         <div id="main">
             <div id="scoreboard">
                 <table>
-                    <tr>
-                        <td>Time</td>
-                        <td>
-                            <p id="scoreboardTime">Not set</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Step Interval</td>
-                        <td>
-                            <p id="scoreboardStepInterval"></p>
-                        </td>
-                    </tr>
                     <tr>
                         <td>Array Size</td>
                         <td>
@@ -85,7 +73,19 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>Sort Active </td>
+                        <td>Min Array Values</td>
+                        <td>
+                            <p id="scoreboardMinArrayValues"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Max Array Values</td>
+                        <td>
+                            <p id="scoreboardMaxArrayValues"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Current Sort</td>
                         <td>
                             <p id="scoreboardSortActive">None</p>
                         </td>
